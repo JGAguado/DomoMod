@@ -1,0 +1,26 @@
+No.	Design Ref	Description	Value	Package	Qty	Notes
+1	C1, C5, C6, C9	Capacitor	0,1uF (6,3V)	C0603	4	
+2	C2	Capacitor	1uF (6,3V)	C0603	1	
+3	C4, C8	Capacitor	10uF (6,3V)	C0603	2	
+4	C3, C7	Capacitor	22uF (6,3V)	C0805	2	
+12	JP1, JP2, JP3	Pin header 2,54 - Straight	1x02	Through Hole	3	
+13	JP4	Pin header 2,54 - Straight	1x03 Male	Through Hole	1	
+14	JP5	Pin header 2,54 - Straight	1x04 Male	Through Hole	1	
+20	Q1, Q2	Mosfet N-Channel	BSS138	SOT23-3	2	
+21	R1	Resistor	1k	R0603	1	
+22	R2	Resistor	4,7k	R0603	1	
+23	R3 - R11	Resistor	10k	R0603	9	
+24	R12	Resistor	43k	R0603	1	
+25	R13	Resistor	51k	R0603	1	
+26	R14 - R16	Resistor	100k	R0603	3	
+27	R17	Resistor	560k	R0603	1	
+28	POT1 - POT2	Potentiometer	1M	R1206	2	
+31	RGB	RGB LED 	PLCC-6	SLV6A-FKB-CK1P1G1BB7R3R3	1	
+37	SV1	Pin header 2,54 - Right Angle	SFH11-PBPC-D08-RA-BK		1	Sullins Part No: SFH11-PBPC-D08-RA-BK
+39	T1	NPN Transistor	MMBT2222A	SOT23	1	
+40	U1	Amplifier	NCS36000	SO14	1	
+41	U2	Gas sensor	CCS811	LGA10	1	
+42	U3	Environment sensor	BME280	LGA-8-2.5X2.5	1	
+43	U4	Battery Management Charge IC	MCP73831	SOT23-5	1	
+44	U5	PIR Sensor	RE200B		1	
+45	LENS	PIR Lens	CWM 0.5 GI V1	PIR-LENSCWM-0.5-GI-V1	1	
