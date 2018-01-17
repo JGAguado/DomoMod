@@ -14,8 +14,7 @@ No.	Design Ref	Description	Value	Package	Qty	Notes
 25	R13	Resistor	51k	R0603	1	
 26	R14 - R16	Resistor	100k	R0603	3	
 27	R17	Resistor	560k	R0603	1	
-28	POT1 - POT2	Potentiometer	1M	R1206	2	
-31	RGB	RGB LED 	PLCC-6	SLV6A-FKB-CK1P1G1BB7R3R3	1	
+28	POT1 - POT2	Potentiometer	1M	TC33X	2	
 37	SV1	Pin header 2,54 - Right Angle	SFH11-PBPC-D08-RA-BK		1	Sullins Part No: SFH11-PBPC-D08-RA-BK
 39	T1	NPN Transistor	MMBT2222A	SOT23	1	
 40	U1	Amplifier	NCS36000	SO14	1	
