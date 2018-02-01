@@ -4884,6 +4884,11 @@ Closed - 0x76
 <label x="165.1" y="40.64" size="1.778" layer="95"/>
 <pinref part="SV1" gate="G$1" pin="10"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="A2_OUT"/>
+<wire x1="114.3" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
+<label x="106.68" y="48.26" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A3" class="0">
 <segment>
@@ -4931,6 +4936,11 @@ Closed - 0x76
 <wire x1="185.42" y1="35.56" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
 <label x="185.42" y="35.56" size="1.778" layer="95"/>
 <pinref part="SV1" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="D_OUT"/>
+<wire x1="104.14" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
+<label x="106.68" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D1" class="0">
@@ -5138,15 +5148,9 @@ Closed - 0x76
 </net>
 <net name="A2O" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="A2_OUT"/>
-<wire x1="114.3" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<label x="106.68" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="17.78" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="17.78" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -5184,13 +5188,6 @@ Closed - 0x76
 <wire x1="142.24" y1="17.78" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
 <label x="139.7" y="38.1" size="1.778" layer="95"/>
 <junction x="134.62" y="17.78"/>
-</segment>
-</net>
-<net name="OUT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="D_OUT"/>
-<wire x1="104.14" y1="55.88" x2="114.3" y2="55.88" width="0.1524" layer="91"/>
-<label x="106.68" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
