@@ -6682,9 +6682,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="D0">
 <contactref element="SV1" pad="2"/>
-<wire x1="17" y1="23.5" x2="16" y2="22.5" width="0.5" layer="1"/>
-<wire x1="16" y1="22.5" x2="16" y2="21.88" width="0.5" layer="1"/>
-<wire x1="16" y1="21.88" x2="16.11" y2="21.77" width="0.5" layer="1"/>
 </signal>
 <signal name="!RST">
 <contactref element="R2" pad="1"/>
